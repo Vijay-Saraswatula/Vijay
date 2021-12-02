@@ -1,4 +1,3 @@
-#Password Generator
 import random
 
 
@@ -20,8 +19,7 @@ x, y, z = [], [], []
 x = fun(letters, x, a)
 y = fun(symbols, y, b)
 z = fun(numbers, z, c)
-pin=x+y+z
+pin = x + y + z
 random.shuffle(pin)
-Len=len(pin)
-for i in range(0,Len):
+for i in range(0, len(pin)):
   print(pin[i],end="")
